@@ -12,7 +12,7 @@
 
 body {
     background: VAR(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: #fff;
 }
 
@@ -43,8 +43,8 @@ header nav a:hover {
 /*Filme-Princial*/
 .filme-principal {
     font-size: 16px;
-    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('/recriando-interface-netflix/img/vikings_capa.jpg');
-    height: 700px;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('/img/vikings_capa.jpg');
+    height: 400px;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -54,14 +54,14 @@ header nav a:hover {
 
 .filme-principal .descricao {
     margin-top: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 40px;    
 
 }
 
 .titulo{
     margin-top: 15%;
     font-size: 40px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
 .botao{
@@ -97,4 +97,8 @@ header nav a:hover {
     width: 100%;
     display: block;
 
+}
+
+.carrosel-filmes{
+    margin-top:  5px ;
 }
